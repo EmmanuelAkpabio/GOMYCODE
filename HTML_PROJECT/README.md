@@ -1,4 +1,4 @@
-#HTML PROJECT
+# HTML PROJECT
 
 Objective
 Welcome to your second checkpoint, and congratulations on making it this far.
