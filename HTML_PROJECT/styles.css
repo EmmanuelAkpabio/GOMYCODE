@@ -1,0 +1,116 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Set font family for the entire document */
+body {
+    font-family: 'Roboto';
+    /* background-color: gold; */
+}
+
+/* Style the navbar */
+.navBar {
+    background-color: black;
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    line-height:70px;
+    z-index: 1;
+}
+
+.navBar ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+.navBar li {
+  display: inline;
+  padding: 5%;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+  color: gold;
+}
+
+.section1 {
+    padding-top: 5%;
+}
+
+.section2 {
+  background-color: white;
+}
+.section2 p {
+  background-color: black;
+  padding: 1%;
+  color: gold;
+  text-align: center;
+}
+
+.section2 h4 img {
+  padding-right: 1%;
+  padding-left: 1%;
+  }
+
+.home video {
+    z-index: 0;
+}
+
+#about form {
+  color: gold;
+  padding: 5px;
+}
+
+#work form {
+  color: gold;
+  padding: 5px;
+}
+
+#resume form {
+  color: gold;
+  padding: 5px;
+}
+
+#contact form {
+  color: gold;
+  padding: 5px;
+}
+
+input {
+  width: 50%;
+  padding: 5px;
+}
+
+label {
+  color: gold;
+  background-color: black;
+  width: fit-content;
+}
+textarea {
+  width: 50%;
+  padding: 5%;
+}
+#about > input, label{
+  display: block;
+}
+
+#btn{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#btn:hover{
+  background-color: gold;
+  color: black;
+}
